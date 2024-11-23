@@ -1,0 +1,26 @@
+Project description
+This research focused on the implementation of a big data design for prediction of bus arrival times using k-means clustering in a distributed processing system and comparing with an undistributed processing system with Apache Spark and classifying travel times into zero, low, moderate and high travel times between bus stops.
+
+File content
+Python File description
+1. NT1_Processing.ipynb: Processing of timetable data fetched from BODS.
+2. AVL data collection.ipynb: Collection of SIRI Location data.
+3. AVL_Timetable_Processing.ipynb: Matching of timetable data to SIRI Location data.
+4. Data_Cleaning.ipynb: Cleaning of matched data.
+5. Data Preprocessing.ipynb: Preprocessing of data.
+6. Exploratory Data Analysis.ipynb: Data Exploration
+7. Feature_Engineering.ipynb: selection of features
+8. TraditionalML_Undistributed_Kmeans.ipynb: Kmeans clustering in an undistributed environment with Spark and prediction with ANN.
+9. MapReduceKmeansClustering_ANN.ipynb: MapReduce Kmeans clustering in an distributed environment with Spark and prediction with ANN.
+10. MapReduceKmeansClustering_3features_ANN.ipynb: MapReduce Kmeans clustering in an distributed environment with Spark and prediction with ANN with just 3 features ArrivalHour, IsWeekend and AvgTravelTimeByJourney.
+
+Data Files description
+1. Timetable_Data_NT1_NCTR.csv: Timetable data
+2. ArrivalTimes_O4_09.csv: matched Timetable and Location data.
+3. clean_data.csv: Cleaned data
+4. df_desc.csv: Data after descriptive statistics.
+5. df_explored: Data After exploratory analysis
+6. Updated_test_data.csv: Testing data.
+7. Train_data.csv: Training data
+8. df_features.csv: data set with selected features
+9. engineered_data.csv: data after feature engineering 
